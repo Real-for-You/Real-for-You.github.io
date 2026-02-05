@@ -64,8 +64,8 @@ body {
 
 /* Домик */
 .house {
-  width: 90%;
-  max-width: 370px;
+  width: 80%;
+  max-width: 500px;
   margin-top: -95px;
 }
 
