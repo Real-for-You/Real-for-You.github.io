@@ -29,9 +29,9 @@ body {
 
 /* Логотип */
 .logo {
-  width: 60%;
-  max-width: 220px;
-  margin-top: 10px;
+  width: 68%;
+  max-width: 250px;
+  margin-top: -10px;
 }
 
 /* Облачко */
@@ -64,14 +64,14 @@ body {
 
 /* Домик */
 .house {
-  width: 55%;
-  max-width: 240px;
-  margin-top: -10px;
+  width: 62%;
+  max-width: 270px;
+  margin-top: -30px;
 }
 
 /* Кнопка */
 .next-button {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding: 14px 22px;
   border: none;
   border-radius: 30px;
