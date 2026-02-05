@@ -1,4 +1,4 @@
-/* Сброс */
+из/* Сброс */
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +31,7 @@ body {
 .logo {
   width: 68%;
   max-width: 250px;
-  margin-top: -10px;
+  margin-top: -30px;
 }
 
 /* Облачко */
