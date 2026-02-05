@@ -64,9 +64,9 @@ body {
 
 /* Домик */
 .house {
-  width: 95%;
+  width: 115%;
   max-width: 270px;
-  margin-top: -50px;
+  margin-top: -80px;
 }
 
 /* Кнопка */
