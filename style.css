@@ -103,5 +103,5 @@ body {
 /* Реакция облачка при смене фразы */
 .speech-wrapper.react {
   animation-play-state: paused;
-  transform: scale(1.03);
+  transform: scale(1.15);
 }
