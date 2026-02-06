@@ -39,7 +39,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 320px;
-  transition: transform 0.25s ease;
+  transition: transform 0.7s ease;
 }
 
 .speech-float {
