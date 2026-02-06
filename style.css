@@ -99,3 +99,9 @@ body {
   50% { transform: translateY(-6px); }
   100% { transform: translateY(0); }
 }
+
+/* Реакция облачка при смене фразы */
+.speech-wrapper.react {
+  animation-play-state: paused;
+  transform: scale(1.03);
+}
