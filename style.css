@@ -40,6 +40,7 @@ body {
   width: 100%;
   max-width: 320px;
   animation: float 4s ease-in-out infinite;
+  transition: transform 0.25s ease;
 }
 
 .speech-bubble {
@@ -103,5 +104,5 @@ body {
 /* Реакция облачка при смене фразы */
 .speech-wrapper.react {
   animation-play-state: paused;
-  transform: scale(1.8);
+  transform: scale(1.03);
 }
