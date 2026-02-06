@@ -36,14 +36,14 @@ function changePhrase() {
   textElement.style.opacity = 0;
 
   // Лёгкая реакция облачка
-  bubble.style.transform = "scale(1.5)";
+  bubble.classList.add("react");
 
   setTimeout(() => {
     // Меняем текст
     textElement.textContent = getRandomPhrase();
 
     // Возвращаем облачко
-    bubble.style.transform = "scale(1)";
+    bubble.classList.remove("react");
 
     // Плавно показываем текст
     textElement.style.opacity = 1;
