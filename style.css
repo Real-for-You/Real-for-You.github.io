@@ -78,6 +78,9 @@ body {
   background-color: rgba(255, 255, 255, 0.85);
   color: #5b2b4a;
   font-size: 16px;
+
+  font-family: 'Comfortaa', sans-serif;
+  
   cursor: pointer;
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
