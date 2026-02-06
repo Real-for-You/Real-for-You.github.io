@@ -36,7 +36,7 @@ function changePhrase() {
   textElement.style.opacity = 0;
 
   // Лёгкая реакция облачка
-  bubble.style.transform = "scale(1.13)";
+  bubble.style.transform = "scale(1.5)";
 
   setTimeout(() => {
     // Меняем текст
