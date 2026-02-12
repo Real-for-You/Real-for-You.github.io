@@ -108,3 +108,23 @@ body {
 .speech-wrapper.react {
   transform: scale(1.1);
 }
+
+/* Кнопка "Войти в магазин" */
+.enter-button {
+  margin-top: -90px;
+  margin-bottom: 90px;
+  padding: 14px 22px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #5b2b4a;
+  font-size: 16px;
+  font-family: 'Comfortaa', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.enter-button:active {
+  transform: scale(0.96);
+  background-color: rgba(255, 255, 255, 1);
+}
