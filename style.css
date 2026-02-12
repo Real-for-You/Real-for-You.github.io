@@ -166,7 +166,7 @@ body {
 
 /* Картинки */
 .gallery img {
-  width: 97%;
+  width: 70%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
   justify-self: center;
