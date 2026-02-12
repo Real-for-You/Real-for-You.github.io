@@ -79,15 +79,13 @@ body {
 /* Кнопка */
 .next-button {
   margin-bottom: 128px;
-  padding: 14px 22px;
+  padding: 10px 18px;   /* было 14px 22px */
   border: none;
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 26px;  /* чуть меньше */
+  background-color: rgba(255, 255, 255, 0.75);
   color: #5b2b4a;
-  font-size: 16px;
-
+  font-size: 14px;      /* было 16px */
   font-family: 'Comfortaa', sans-serif;
-  
   cursor: pointer;
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
@@ -112,21 +110,21 @@ body {
 /* Кнопка "Войти в магазин" */
 .enter-button {
   margin-top: -90px;
-  margin-bottom: 90px;
-  padding: 14px 22px;
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+  padding: 18px 28px;   /* увеличили */
+  border-radius: 32px;
+  background-color: #ffffff;  /* сделали плотнее */
   color: #5b2b4a;
-  font-size: 16px;
+  font-size: 18px;      /* увеличили */
+  font-weight: 600;     /* добавили акцент */
   font-family: 'Comfortaa', sans-serif;
   text-decoration: none;
   text-align: center;
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .enter-button:active {
   transform: scale(0.96);
-  background-color: rgba(255, 255, 255, 1);
 }
 
 
