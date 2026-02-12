@@ -74,7 +74,7 @@ body {
 .house {
   width: 100%;
   max-width: 320px;
-  margin-top: 0px;
+  margin-top: -10px;
   margin-bottom: 0px;
 }
 
@@ -112,8 +112,8 @@ body {
 
 /* Кнопка "Войти в магазин" */
 .enter-button {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   padding: 18px 28px;   /* увеличили */
   border-radius: 32px;
   background-color: #ffffff;  /* сделали плотнее */
@@ -168,7 +168,7 @@ body {
 /* Картинки */
 .gallery img {
   width: 97%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   object-fit: contain;
   justify-self: center;
 }
