@@ -109,7 +109,7 @@ body {
 
 /* Кнопка "Войти в магазин" */
 .enter-button {
-  margin-top: 0px;
+  margin-top: -40px;
   margin-bottom: 10px;
   padding: 18px 28px;   /* увеличили */
   border-radius: 32px;
