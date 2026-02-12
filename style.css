@@ -171,3 +171,11 @@ body {
   object-fit: contain;
   justify-self: center;
 }
+
+/* Скрепляем домик и кнопки */
+.bottom-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px; /* вот это теперь управляет расстоянием */
+  }
