@@ -161,13 +161,13 @@ body {
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 18px;
+  gap: 8px;
   width: 100%;
 }
 
 /* Картинки */
 .gallery img {
-  width: 97%;
+  width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: contain;
   justify-self: center;
